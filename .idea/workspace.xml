@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f1e2844-4f11-4e1d-ad15-05cf0b8aed8a" name="Default Changelist" comment="" />
+    <list default="true" id="4f1e2844-4f11-4e1d-ad15-05cf0b8aed8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/easy/easy_array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medium/medium_array/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/array_util/array_util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/easy/medium_array/array_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/array/array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/easy/array/array_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/easy/easy_array/array_test.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,45 +26,56 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="5" />
+          <entry key="go" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="5" />
+          <entry key="Go" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="1755" />
+          <entry key="go" value="5075" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="1755" />
+          <entry key="Go" value="5075" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/easy/array/array_test.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/easy/easy_array/array.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="432">
+              <caret line="159" column="13" lean-forward="true" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/medium/medium_array/array.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="13" column="37" selection-start-line="10" selection-end-line="23" selection-end-column="20" />
               <folding>
-                <element signature="e#15#67#0" expanded="true" />
+                <element signature="e#22#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/easy/array/array.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/easy/medium_array/array_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+            <state relative-caret-position="114">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -84,8 +103,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/util/math_util/math_util.go" />
+        <option value="$PROJECT_DIR$/src/util/array_util/array_util.go" />
         <option value="$PROJECT_DIR$/test/easy/array/array_test.go" />
         <option value="$PROJECT_DIR$/src/easy/array/array.go" />
+        <option value="$PROJECT_DIR$/src/medium/array/array.go" />
+        <option value="$PROJECT_DIR$/src/medium/easy_array/array.go" />
+        <option value="$PROJECT_DIR$/test/easy/easy_array/array_test.go" />
+        <option value="$PROJECT_DIR$/test/easy/medium_array/array_test.go" />
+        <option value="$PROJECT_DIR$/src/medium/medium_array/array.go" />
+        <option value="$PROJECT_DIR$/src/easy/easy_array/array.go" />
       </list>
     </option>
   </component>
@@ -95,7 +121,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="974" />
@@ -130,7 +156,20 @@
               <item name="go-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="easy_array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="medium_array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go-algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -141,6 +180,13 @@
             <path>
               <item name="go-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="math_util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -154,7 +200,14 @@
               <item name="go-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="easy_array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+              <item name="medium_array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../maizuo.com/back-end/app-cfg" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -182,7 +235,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestMaxProfit in go-algorithm/test/easy/array">
+  <component name="RunManager" selected="Go Test.array_test.go">
+    <configuration name="TestLengthOfLongestSubstring in go-algorithm/test/easy/medium_array" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-algorithm" />
+      <working_directory value="$PROJECT_DIR$/test/easy/medium_array" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-algorithm/test/easy/medium_array" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLengthOfLongestSubstring$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestMaxProfit in go-algorithm/test/easy/array" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-algorithm" />
       <working_directory value="$PROJECT_DIR$/test/easy/array" />
@@ -192,6 +256,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestMaxProfit$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMoveZeroes in go-algorithm/test/easy/array" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-algorithm" />
+      <working_directory value="$PROJECT_DIR$/test/easy/array" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-algorithm/test/easy/array" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMoveZeroes$" />
       <method v="2" />
     </configuration>
     <configuration name="TestRemoveDuplicates in go-algorithm/test/easy/array" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -205,55 +280,80 @@
       <pattern value="^TestRemoveDuplicates$" />
       <method v="2" />
     </configuration>
+    <configuration name="array_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-algorithm" />
+      <working_directory value="$PROJECT_DIR$/test/easy/medium_array" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="go-algorithm" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/test/easy/medium_array/array_test.go" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Test.TestRemoveDuplicates in go-algorithm/test/easy/array" />
       <item itemvalue="Go Test.TestMaxProfit in go-algorithm/test/easy/array" />
+      <item itemvalue="Go Test.TestMoveZeroes in go-algorithm/test/easy/array" />
+      <item itemvalue="Go Test.TestLengthOfLongestSubstring in go-algorithm/test/easy/medium_array" />
+      <item itemvalue="Go Test.array_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.array_test.go" />
+        <item itemvalue="Go Test.TestLengthOfLongestSubstring in go-algorithm/test/easy/medium_array" />
+        <item itemvalue="Go Test.TestMoveZeroes in go-algorithm/test/easy/array" />
         <item itemvalue="Go Test.TestMaxProfit in go-algorithm/test/easy/array" />
         <item itemvalue="Go Test.TestRemoveDuplicates in go-algorithm/test/easy/array" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRemoveDuplicates_in_go-algorithm_test_easy_array - 2019.02.28 at 11h 07m 30s.xml">
-      <configuration name="TestRemoveDuplicates in go-algorithm/test/easy/array" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLengthOfLongestSubstring_in_go-algorithm_test_easy_medium_array - 2019.03.01 at 16h 42m 14s.xml">
+      <configuration name="TestLengthOfLongestSubstring in go-algorithm/test/easy/medium_array" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_in_go-algorithm_test_easy_array - 2019.02.28 at 11h 09m 50s.xml">
-      <configuration name="TestRemoveDuplicates in go-algorithm/test/easy/array" configurationId="GoTestRunConfiguration" />
+    <history-entry file="array_test_go - 2019.03.01 at 16h 44m 12s.xml">
+      <configuration name="array_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestRemoveDuplicates_in_go-algorithm_test_easy_array - 2019.02.28 at 11h 10m 23s.xml">
-      <configuration name="TestRemoveDuplicates in go-algorithm/test/easy/array" configurationId="GoTestRunConfiguration" />
+    <history-entry file="array_test_go - 2019.03.01 at 16h 47m 01s.xml">
+      <configuration name="array_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMaxProfit_in_go-algorithm_test_easy_array - 2019.02.28 at 11h 41m 08s.xml">
-      <configuration name="TestMaxProfit in go-algorithm/test/easy/array" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestLengthOfLongestSubstring_in_go-algorithm_test_easy_medium_array - 2019.03.01 at 16h 47m 58s.xml">
+      <configuration name="TestLengthOfLongestSubstring in go-algorithm/test/easy/medium_array" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMaxProfit_in_go-algorithm_test_easy_array - 2019.02.28 at 11h 41m 21s.xml">
-      <configuration name="TestMaxProfit in go-algorithm/test/easy/array" configurationId="GoTestRunConfiguration" />
+    <history-entry file="array_test_go - 2019.03.01 at 16h 48m 55s.xml">
+      <configuration name="array_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMaxProfit_in_go-algorithm_test_easy_array - 2019.02.28 at 11h 42m 29s.xml">
-      <configuration name="TestMaxProfit in go-algorithm/test/easy/array" configurationId="GoTestRunConfiguration" />
+    <history-entry file="array_test_go - 2019.03.01 at 16h 49m 30s.xml">
+      <configuration name="array_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMaxProfit_in_go-algorithm_test_easy_array - 2019.02.28 at 12h 16m 31s.xml">
-      <configuration name="TestMaxProfit in go-algorithm/test/easy/array" configurationId="GoTestRunConfiguration" />
+    <history-entry file="array_test_go - 2019.03.01 at 16h 49m 54s.xml">
+      <configuration name="array_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLengthOfLongestSubstring_in_go-algorithm_test_easy_medium_array - 2019.03.01 at 16h 55m 03s.xml">
+      <configuration name="TestLengthOfLongestSubstring in go-algorithm/test/easy/medium_array" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="array_test_go - 2019.03.01 at 16h 56m 39s.xml">
+      <configuration name="array_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="array_test_go - 2019.03.01 at 16h 57m 14s.xml">
+      <configuration name="array_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -269,6 +369,35 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>subMap</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>words</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bytez</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bytez[0]</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>subMap[0]</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Go/src/math/dim.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -277,27 +406,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/math_util/math_util.go">
+    <entry file="file://$PROJECT_DIR$/src/util/array_util/array_util.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/easy/array/array_test.go">
+    <entry file="file://$PROJECT_DIR$/src/util/math_util/math_util.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/easy/easy_array/array_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/easy/medium_array/array_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/medium_array/array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="13" column="37" selection-start-line="10" selection-end-line="23" selection-end-column="20" />
           <folding>
-            <element signature="e#15#67#0" expanded="true" />
+            <element signature="e#22#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/easy/array/array.go">
+    <entry file="file://$PROJECT_DIR$/src/easy/easy_array/array.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        <state relative-caret-position="432">
+          <caret line="159" column="13" lean-forward="true" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
         </state>
       </provider>
     </entry>
